@@ -4,6 +4,7 @@ function handleFormSubmit(event) {
   event.preventDefault()
   console.log(event)
   const city = document.getElementById("city").value 
+  console.log(city)
 }
 
 function fetchCurrentWeather(city) {
